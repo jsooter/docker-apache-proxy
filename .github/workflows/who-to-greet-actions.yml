@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: jsooter/hello-world-javascript-action@v1.4
+        uses: jsooter/hello-world-javascript-action@v1.5
         with:
           who-to-greet: 'Josh'
       # Use the output from the `hello` step
