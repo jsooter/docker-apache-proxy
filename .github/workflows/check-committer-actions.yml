@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  check-committer:
+    runs-on: ubuntu-latest
+    name: Check committer ID
+    steps:
+      - name: Check committer action step
+        id: check
+        uses: https://github.com/jsooter/committer-identity-action@0.2
+        with:
+          valid-emails-url: 'https://raw.githubusercontent.com/jsooter/committer-identity-action/main/valid-emails.json'
