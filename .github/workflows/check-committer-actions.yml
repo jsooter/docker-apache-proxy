@@ -7,6 +7,6 @@ jobs:
     steps:
       - name: Check committer action step
         id: check
-        uses: jsooter/committer-identity-action@v1.9
+        uses: jsooter/committer-identity-action@v1.10
         with:
-          valid-emails-url: 'https://raw.githubusercontent.com/jsooter/committer-identity-action/main/valid-emails.json'
+          valid-emails-url: 'https://raw.githubusercontent.com/jsooter/committer-identity-action/main/id_list_a.json'
